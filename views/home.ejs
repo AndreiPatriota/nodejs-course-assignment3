@@ -1,0 +1,16 @@
+<% include ('header') %>
+
+<nav>
+  <ul>
+    <li>
+      This is the <strong>Main</strong> page. Click the button to do something
+    </li>
+    <li>
+      <button hx-get="/message" hx-target="#result">Button</button>
+    </li>
+  </ul>
+</nav>
+
+<section id="result"></section>
+
+<% include ('footer') %>

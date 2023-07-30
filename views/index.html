@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment3</title>
+    <link rel="stylesheet" href="/css/pico.min.css" />
+    <script src="/scripts/htmx.min.js"></script>
+  </head>
+  <body class="container">
+    <article>
+      <header>
+        <nav>
+          <ul>
+            <li><strong>This is My Third Assignemt</strong></li>
+          </ul>
+          <ul>
+            <li><a hx-get="/home" hx-target="#main">Home</a></li>
+            <li><a hx-get="/users" hx-target="#main">Users</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="main"></main>
+
+      <footer>
+        <small>
+          <p>Assignemt made by <strong>Andrei Patriota</strong></p>
+        </small>
+      </footer>
+    </article>
+  </body>
+</html>
